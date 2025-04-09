@@ -49,18 +49,18 @@ This project implements a home automation system using an ESP32 microcontroller,
 
     Power supply
 
-**Pin Configuration
-Component	ESP32 GPIO Pin
-DHT11	4
-Relay 1 (LED)	23
-Relay 2 (FAN)	22
-Relay 3 (Door)	21
-Relay 4 (Motor)	19
-Buzzer	32
-MQ2 (Analog)	34
-PIR	27
-Ultrasonic Trig	5
-Ultrasonic Echo	18**
+**Pin Configuration**
+    Component	ESP32 GPIO Pin
+    DHT11	4
+    Relay 1 (LED)	23
+    Relay 2 (FAN)	22
+    Relay 3 (Door)	21
+    Relay 4 (Motor)	19
+    Buzzer	32
+    MQ2 (Analog)	34
+    PIR	27
+    Ultrasonic Trig	5
+    Ultrasonic Echo	18
 
 **Blynk Configuration**
 
