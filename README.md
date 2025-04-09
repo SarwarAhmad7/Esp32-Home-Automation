@@ -2,7 +2,8 @@ Home Automation System with ESP32 and Blynk
 Overview
 
 This project implements a home automation system using an ESP32 microcontroller, various sensors, and the Blynk IoT platform. The system allows for remote monitoring and control of home appliances, environmental sensing, and security features.
-Features
+
+**Features**
 
     Environmental Monitoring:
 
@@ -28,7 +29,7 @@ Features
 
         Real-time sensor data visualization
         
-  Hardware Components
+ ** Hardware Components**
 
     ESP32 microcontroller
 
@@ -48,7 +49,7 @@ Features
 
     Power supply
 
-Pin Configuration
+**Pin Configuration
 Component	ESP32 GPIO Pin
 DHT11	4
 Relay 1 (LED)	23
@@ -59,9 +60,9 @@ Buzzer	32
 MQ2 (Analog)	34
 PIR	27
 Ultrasonic Trig	5
-Ultrasonic Echo	18
+Ultrasonic Echo	18**
 
-Blynk Configuration
+**Blynk Configuration**
 
     Create a new project in Blynk app
 
@@ -91,8 +92,8 @@ Blynk Configuration
 
         V11: Relay 4 Control (Switch)
 
-Setup Instructions
-    Install required libraries:
+**Setup Instructions
+    Install required libraries:**
 
         Blynk by Volodymyr Shymanskyy
 
@@ -112,7 +113,7 @@ Setup Instructions
 
     Connect all hardware components as per pin configuration
 
-Automatic Controls
+**Automatic Controls**
 
     Fan Control: Turns on when temperature exceeds 45°C
 
@@ -122,7 +123,7 @@ Automatic Controls
 
     Water Motor: Activates when distance exceeds 5cm (ultrasonic sensor)
 
-Manual Controls
+**Manual Controls**
 
 All relays can be manually controlled through the Blynk app:
 
@@ -134,7 +135,7 @@ All relays can be manually controlled through the Blynk app:
 
     V11: Relay 4 (Water Motor)
 
-Serial Monitoring
+**Serial Monitoring**
 
 The system outputs all sensor readings and relay states to the serial monitor at 115200 baud rate for debugging purposes.
 License
